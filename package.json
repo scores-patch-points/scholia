@@ -1,0 +1,8 @@
+{
+  "name": "scholia",
+  "version": "0.1.0",
+  "description": "Shows exactly what a khora read returns: the text with every word's class, names and pronoun bindings marked, the dependency tree, the clause nesting, and every field of the entry.",
+  "type": "module",
+  "scripts": { "scholia": "node build.mjs", "test": "node --test test/scholia.test.mjs" },
+  "repository": { "type": "git", "url": "git+https://github.com/scores-patch-points/scholia.git" }
+}
